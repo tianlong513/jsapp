@@ -15,4 +15,9 @@ public class Hello {
     public  String hello(){
         return "helloWorld!!!";
     }
+
+    @GetMapping(value = "hell2")
+    public  String hell2(){
+        return "helloWorld!!!";
+    }
 }
